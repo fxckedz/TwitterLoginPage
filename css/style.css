@@ -1,0 +1,142 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**MAIN**/
+main{
+    width: 100%;
+    height: 100%;
+    background-color: #242d34;
+    display: grid;
+    place-items: center;
+}
+/**MAIN**/
+
+/**FORM**/
+.container{
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    max-height: 650px;
+    background-color: #000;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+}
+
+.container .x{
+    width: 12px;
+    cursor: pointer;
+}
+
+.form-container input{
+    width: 100%;
+    height: 4rem;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid rgb(113, 118, 123);
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-container{
+    position: relative;
+    top: -2rem;
+    text-align: center;
+    width: 55%;
+    height: 100%;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.form-container > *{
+    margin-bottom: 1rem;
+}
+
+.form-container .text-container{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.form-container #criar{
+    line-height: 40px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.text-container .termos{
+    color: rgb(113, 118, 123);
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+
+.form-container p{
+    color: white;
+}
+
+.form-container h1{
+    color: #fff;
+}
+
+.container .logo{
+    width: 40px;
+}
+/**FORM**/
+
+/**BUTTON**/
+.btn{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-left: 25%;
+}
+
+.btn span{
+    font-size: 13px;
+}
+
+.btn img{
+    width: 23px;
+    padding-right: 5px;
+}
+
+#esquece{
+    background-color: #000;
+    border: 1px solid white;
+    color: white;
+    padding-left: 6rem;
+    margin-top: 1rem;
+}
+/**BUTTON**/
+
+@media screen and (max-width: 704px){
+    
+    .container{
+        max-width: none;
+        max-height: none;
+        border-radius: 0;
+    }
+
+    .form-container{
+        position: static;
+        width: 300px;
+        height: auto;
+    }
+
+}
